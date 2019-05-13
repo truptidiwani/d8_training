@@ -1,0 +1,14 @@
+uuid: 11bb01e4-783d-497c-9f8a-7c581fc742ae
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Website feedback'
+recipients:
+  - trupti.diwani@qed42.com
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''

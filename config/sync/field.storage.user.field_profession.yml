@@ -1,0 +1,27 @@
+uuid: 488cb365-4d0a-479c-b6ab-23ea3216ef54
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - user
+id: user.field_profession
+field_name: field_profession
+entity_type: user
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: '<li>Food Professional</li>'
+      label: '<li>Food Professional</li>'
+    -
+      value: '<li>Beverage professional</li>'
+      label: '<li>Beverage professional</li>'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
