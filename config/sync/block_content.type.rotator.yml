@@ -1,0 +1,8 @@
+uuid: ed0e94c8-5b2e-4cd0-9943-818f7a8b14f6
+langcode: en
+status: true
+dependencies: {  }
+id: rotator
+label: Rotator
+revision: 0
+description: ''

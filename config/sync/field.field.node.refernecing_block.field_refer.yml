@@ -1,0 +1,27 @@
+uuid: a9d9ce0e-a57b-4b8d-a60d-89c41e88a439
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_refer
+    - node.type.refernecing_block
+id: node.refernecing_block.field_refer
+field_name: field_refer
+entity_type: node
+bundle: refernecing_block
+label: Refer
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      refernecing_block: refernecing_block
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,37 @@
+uuid: acaef1d2-e3d4-4174-8f95-738d8769b7ce
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.refernecing_block.body
+    - field.field.node.refernecing_block.field_refer
+    - node.type.refernecing_block
+  module:
+    - text
+    - user
+id: node.refernecing_block.default
+targetEntityType: node
+bundle: refernecing_block
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_refer:
+    weight: 102
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

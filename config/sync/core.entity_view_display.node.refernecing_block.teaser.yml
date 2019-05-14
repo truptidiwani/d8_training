@@ -1,0 +1,30 @@
+uuid: 824d5676-0615-4f8a-b8a6-2f6da69f12e0
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.refernecing_block.body
+    - node.type.refernecing_block
+  module:
+    - text
+    - user
+id: node.refernecing_block.teaser
+targetEntityType: node
+bundle: refernecing_block
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

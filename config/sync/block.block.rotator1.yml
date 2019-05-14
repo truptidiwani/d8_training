@@ -1,0 +1,25 @@
+uuid: b776eaa7-a43e-4785-971a-ff58ac9b722b
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:rotator:1e0ef3f4-4db8-4c39-9f6e-6855a75f7f6f'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: rotator1
+theme: bartik
+region: featured_top
+weight: 0
+provider: null
+plugin: 'block_content:1e0ef3f4-4db8-4c39-9f6e-6855a75f7f6f'
+settings:
+  id: 'block_content:1e0ef3f4-4db8-4c39-9f6e-6855a75f7f6f'
+  label: Rotator1
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
